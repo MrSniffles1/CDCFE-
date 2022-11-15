@@ -1,0 +1,81 @@
+<!DOCTYPE html><!-- This file uses HTML5-->
+<html>
+	<head>
+		<title>The World Wide Web</title>
+		<link rel="stylesheet"  href="css/style.css" />
+    </head>
+	
+	<body><!-- This is the start of the web page-->
+	
+		<header><!-- This is the Header bar-->
+			
+			<h1><span class="color">The World Wide Web</span><img style="width:100px;" src="image/logo.png" ></h1> <!-- error here-->
+				<nav><!-- This is the Navigation bar-->
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="History.html"> History</a></li>
+						<li><a href="today.html"> Todays World </a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+		</header>
+		<div id="banner-image"> 
+			<h2><strong>The World Wide Web</strong><br/>A short introduction</h2>
+		</div>
+			<&nbsp><!-- This should contain the banner image and heading-->
+			
+				<article> 
+						
+				        <h2>Early Days of The World Wide Web</h2>
+						<p><img src="images/tim.img" alt="tim">Sir Tim Berners-Lee (born June 8, 1955, England)is a computer scientist generally credited as the inventor of the World Wide Web. He was born in London, and his parents were early computer scientists, working on one of the earliest computers. Tim followed in his parent's footsteps, he had several positions in the computer industry, including a stint from June to December 1980 as a software engineering consultant at CERN, the European particle physics laboratory in Geneva.</p>
+						
+						<p>While at CERN, Berners-Lee developed a program for himself, called Enquire, that could store information in files that contained connections (“links”) both within and among separate files—a technique that became known as hypertext. After leaving CERN, Berners-Lee worked for Image Computer Systems Ltd., located in Ferndown, Dorset, where he designed a variety of computer systems. In 1984 he returned to CERN to work on the design of the laboratory’s computer network, developing procedures that allowed diverse computers to communicate with one another and researchers to control remote machines.</p>
+						
+						<p>In March 1989, Tim laid out his vision for what would become the web in a document called “Information Management: A Proposal”. Believe it or not, Tim’s initial proposal was not immediately accepted. In fact, his boss at the time, Mike Sendall, noted the words “Vague but exciting” on the cover. The web was never an official CERN project, but Mike managed to give Tim time to work on it in September 1990. He began work using a NeXT computer, one of Steve Jobs’ early products.</p>
+				</article>
+		</section>
+			<div class="box">
+				<h4><strong>Heading</strong><br/>some text goes here</h4>
+			</div>
+			<div class="box">
+				<h4><strong>Heading</strong><br/>some text goes here</h4>
+			</div>
+			<&nbsp> <!-- This should contain floating boxes-->
+				
+			
+		<section>		
+				<article> 
+					
+				       <h2> Social Media</h2>
+					   <p><img style="width:60px;" src="img/icon-2.png">Social Media has become a significant part of our every day lives. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus odio at purus iaculis, at eleifend enim ullamcorper. Nunc posuere augue non eros aliquet, eget pharetra dolor varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam tempor, est id blandit volutpat, urna ante accumsan arcu, nec blandit nisl leo imperdiet tortor..</p>
+				</article>
+				<article> 
+				        <h2>Contact us</h2>
+						<p><img style="width:60px;" src="img/icon-3.png">Contact us if you have any questions about Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus odio at purus iaculis, at eleifend enim ullamcorper. Nunc posuere augue non eros aliquet, eget pharetra dolor varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam tempor, est id blandit volutpat, urna ante accumsan arcu, nec blandit nisl leo imperdiet tortor.</p>
+				</article>
+			</section>
+			
+			
+			<section>
+				<h3> &nbsp;</h3>
+				<p>This template is written entirely in <strong>HTML5</strong>
+		         and <strong>CSS</strong>, and can be validated using the links in the footer.</p>
+                <p>This website is a fully functional HTML5 page website.</p>
+			</section>
+		
+		
+		<footer><!-- This is the Footer bar-->
+			
+               <p><a href="index.html">Home</a> 
+			   | <a href="credits.html">Credits </a>
+               | <a href="https://validator.w3.org/">HTML Validator </a>			   
+			   | <a href="contact.html">Contact Us</a></p>
+			  
+               <p>Copyright &copy; Your Name 2021| <!-- This should containyour name-->
+			   <a href="https://www.w3schools.com/html/default.asp"> | HTML Tutorial</a>
+			   <a href="https://www.w3schools.com/css/default.asp"> | CSS Tutorial |</a></p>
+			
+        </footer>
+
+	</body>
+</html>

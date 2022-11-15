@@ -1,0 +1,111 @@
+<!DOCTYPE html><!-- This file uses HTML5-->
+<html lang="en">
+	<head>
+		<meta name="viewport" content="with=device-width" initial-scale="1.0">
+		<title>Home of Drones</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/20d93e9c08.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<section class="header">
+			<nav>
+					<a href="index.html"><img src="img/logo.png"></a>
+					<div class="nav-links">
+						<i class="fa fa-times" onclick="hidemenu()"></i>
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="drones.html"> DRONES</a></li>
+							<li><a href="footage.html">FOOTAGE</a></li>
+							<li><a href="contact.html">CONTACT US</a></li>
+						</ul>
+					</div>
+					<i class="fa fa-bars" onclick="showmenu()"></i>
+			</nav>
+
+			<div class="text-box">
+				<h1>Drones</h1>
+				<p>Drones are incredibly easy<br> to get into today!</p>
+				<a href="drones.html" class="hero-btn">Find out more</a>
+			</div>
+		</section>
+
+		<!--What are drones-->
+		<section class="Drones">
+			<h1>What are drones?</h1>
+			<p>Indeed what are they?(fill this in ;D)</p>
+
+			<div class="row">
+				<div class="Drone-types">
+					<h3>Racing Drones</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dui sapien</p>
+				</div>
+				<div class="Drone-types">
+					<h3>Explorer Drones</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dui sapien</p>
+				</div>
+				<div class="Drone-types">
+					<h3>Photography Drones</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut dui sapien</p>
+				</div>
+			</div>
+		</section>
+		<section class="Drone-Links">
+			<h1>Want more information?</h1>
+			<p>Want to find out more about these drones? <br> Click the images below to find out more!</p>
+
+			<div class="row">
+				<div class="Drone-types">
+					<a href="drones.html">
+					<img src="img/race.jpg">
+					<div class="layer">
+						<h3>Racing Drones</h3>
+					</div>
+				</a>
+				</div>
+				<div class="Drone-types">
+					<a href="drones.html">
+					<img src="img/explorer.jpg">
+					<div class="layer">
+						<h3>Explorer Drones</h3>
+					</div>
+				</a>
+				</div>
+				<div class="Drone-types">
+					<a href="drones.html">
+					<img src="img/photo.jpeg">
+					<div class="layer">
+						<h3>Photography Drones</h3>
+					</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!---Javascript for toggle menu on mobile version-->
+		<script>
+			
+			var navLinks = document.getElementById("navLinks")
+			function showMenu(){
+				navlinks.style.right="0";
+			}
+			function showMenu(){
+				navlinks.style.right="-200px";
+			}
+		</script>
+		<section class="Closer">
+			<h3> To contact us or stay up to date on all things drones, follow our social media below!</h3>
+		</section>
+	</body>
+	<footer>
+		<a href="contact.html"><h4>Contact Us</h4></a><br>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-youtube"></i>
+		</div>
+	</footer>
+</html>
